@@ -5,7 +5,7 @@ import { modalState, movieState } from "../atoms/modalAtom";
 import { DocumentData } from "firebase/firestore";
 
 interface Props{
-    movie:Movie | DocumentData
+    movie:Movie[] | DocumentData
 }
 
 function Thumbnail({movie}:Props) {
